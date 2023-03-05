@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PdfWIthCbvas.MainPage">
+
+   <ContentPage.Content>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="Green" />
+            <Label Text="Row 0, Column 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <WebView x:Name="webView" Grid.Column="1" Source="https://learn.microsoft.com/dotnet/maui" />
+            <Image x:Name="imgpdf" Grid.Column="1"></Image>
+            <BoxView Grid.Row="1"
+                 Color="Teal" />
+            <Label Grid.Row="1"
+               Text="Row 1, Column 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+            <Button Grid.Row="1"
+                 Grid.Column="1" Clicked="aaab"></Button>
+            <BoxView Grid.Row="2"
+                 Grid.ColumnSpan="2"
+                 Color="Red" />
+            <Label Grid.Row="2"
+               Grid.ColumnSpan="2"
+               Text="Row 2, Columns 0 and 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+

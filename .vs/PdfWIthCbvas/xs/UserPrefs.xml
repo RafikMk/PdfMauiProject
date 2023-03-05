@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{8CBA9035-B0B2-4675-9FDF-4CA5534E142A}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_API_33_x86_64" />
+  <MonoDevelop.Ide.ItemProperties.PdfWIthCbvas PreferredExecutionTarget="Android.Pixel_3a_API_33_x86_64" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PdfWIthCbvas/MainPage.xaml.cs">
+    <Files>
+      <File FileName="PdfWIthCbvas/MainPage.xaml.cs" Line="77" Column="29" />
+      <File FileName="PdfWIthCbvas/MainPage.xaml" Line="17" Column="26" />
+      <File FileName="../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/33.0.26/targets/Microsoft.Android.Sdk.AssemblyResolution.targets" Line="107" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PdfWIthCbvas" expanded="True">
+            <Node name="PdfWIthCbvas" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="net7.0-android" expanded="True">
+                  <Node name="PackageDependencies" expanded="True">
+                    <Node name="PDFtoImage" expanded="True">
+                      <Node name="SkiaSharp.NativeAssets.Android" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
